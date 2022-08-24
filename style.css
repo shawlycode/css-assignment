@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Nunito:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,500&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  background-color: rgb(20, 32, 61);
+  height: 70vh;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+.navbar {
+  margin: auto;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+.navlinks ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+li a {
+  text-decoration: none;
+  margin-left: 100px;
+  color: #fff;
+  font-size: 24px;
+}
+li #active {
+  color: rgb(252, 163, 16);
+}
+.logo {
+  font-size: 34px;
+  font-weight: bolder;
+}
+/*---nav content styles--*/
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
+}
+.left_content {
+  width: 50%;
+}
+.left_content h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.left_content p {
+  font-size: 18px;
+}
+button {
+  border: none;
+  border-radius: 7px;
+  padding: 15px 60px;
+  background-color: rgb(252, 163, 16);
+  color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.right_content img {
+  width: 400px;
+}
+
+/*---random content styles--*/
+
+.random_section {
+  max-width: 890px;
+  margin: auto;
+  align-items: center;
+}
+.random_section h1 {
+  text-align: center;
+  margin: 30px;
+}
+.random_content {
+  display: flex;
+  gap: 20px;
+}
+.image_container {
+  max-width: 300px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.image_container img {
+  width: 100%;
+  border: 1px solid rgb(20, 32, 61);
+  border-radius: 10px;
+}
+.image_container p {
+  color: rgb(165, 162, 162);
+  text-align: center;
+}
+
+/*---testimonials content styles--*/
+
+.testimonail_section {
+  max-width: 890px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.testimonail_section p {
+  font-size: 34px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/*---call to action content styles--*/
+
+.call_to_action_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 890px;
+  margin: auto;
+  height: 15vh;
+  background-color: rgb(55, 12, 230);
+  padding: 30px;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+/*---footer content styles--*/
+
+.footer_section {
+  background-color: rgb(20, 32, 61);
+  height: 10vh;
+}
+.footer_section p {
+  color: whitesmoke;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
