@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 section {
-  background-color: rgb(20, 32, 61);
+  background-color: rgb(28, 16, 16);
   height: 70vh;
   color: whitesmoke;
   margin-bottom: 50px;
@@ -28,15 +28,15 @@ section {
 }
 li a {
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 30px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
 }
-li #active {
+/* li #active {
   color: rgb(252, 163, 16);
-}
+} */
 .logo {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bolder;
 }
 /*---nav content styles--*/
@@ -61,9 +61,9 @@ button {
   border: none;
   border-radius: 7px;
   padding: 15px 60px;
-  background-color: rgb(252, 163, 16);
+  background-color: rgb(16, 71, 252);
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -93,12 +93,13 @@ button {
 }
 .image_container img {
   width: 100%;
-  border: 1px solid rgb(20, 32, 61);
+  border: 3px solid rgb(120, 104, 241);
   border-radius: 10px;
 }
 .image_container p {
   color: rgb(165, 162, 162);
   text-align: center;
+  font-size: 18px;
 }
 
 /*---testimonials content styles--*/
@@ -125,7 +126,7 @@ button {
   align-items: center;
   max-width: 890px;
   margin: auto;
-  height: 15vh;
+  height: 8vh;
   background-color: rgb(55, 12, 230);
   padding: 30px;
   color: whitesmoke;
